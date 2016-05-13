@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Is Big Data a Big Deal? Not Without Correct Software!
+    </title>
+
+    <meta name="description" content="Teaching Slides for Computer Science 111">
+    <meta name="author" content="Gregory M. Kapfhammer">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night-gkapfham.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/tomorrow&#45;night&#45;bright.css">         -->
+    <!-- <link rel="stylesheet" href="lib/css/tomorrow&#45;night&#45;bright.css"> -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Install Font Awesome and the Google Web fonts -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans' rel='stylesheet' type='text/css'> -->
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <div class="slides">
+
+        <section data-background-transition="none" data-background="images/2428544365_4fdd69c25d_b.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Is Big Data a Big Deal?<h1>
+              <h2>Not Without Correct Software!</h2>
+
+              <p>Gregory M. Kapfhammer</p>
+              <br /><small><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">creative commons licensed ( BY-NC-ND )</a> <a title="Push" href="http://flickr.com/photos/sunface13/3887921116">flickr photo</a> shared by <a href="http://flickr.com/people/sunface13">sunface13</a></small>
+        </section>
+
+        <section>
+          <h1>What is Big Data?</h1>
+          <p class="fragment">Electronic music group from New York City?</p>
+          <p class="fragment">Yes, but not in this context!</p>
+          <p class="fragment">Create <b class="orange">models</b>, make <b class="orange">predictions</b>, and take <b class="orange">action</b>!</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/4041164566_37b36db688_o_d.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/4041164566_37b36db688_o_d.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>"V" Times Three?</h1>
+          <p class="fragment"><b class="orange">V</b>olume</p>
+          <p class="fragment"><b class="orange">V</b>elocity</p>
+          <p class="fragment"><b class="orange">V</b>ariety</p>
+          <br/><small><a title="V" href="http://flickr.com/photos/eladrahmin/4041164566">flickr photo</a> shared by <a href="http://flickr.com/people/eladrahmin">Elad R</a> under a <a href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons ( BY-NC ) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Wait, have we missed a "V"?</h1>
+        </section>
+
+
+        <section data-background-transition="none" data-background="images/6644690863_e28c16163f_b_d.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/6644690863_e28c16163f_b_d.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>We Need Veracity!</h1>
+          <p class="fragment"><b class="orange">Confidence</b> in the <b class="orange">correctness</b> of the data and software</p>
+          <p class="fragment">Achieved through <b class="orange">verification</b> and <b class="orange">validation</b></p>
+          <br /><small><a title="Referee" href="http://flickr.com/photos/naturegeak/6644690863">flickr photo</a> shared by <a href="http://flickr.com/people/naturegeak">Brandon Giesbrecht</a> under a <a href="http://creativecommons.org/licenses/by/2.0/">Creative Commons ( BY ) license</a> </small>
+        </section>
+
+        <section>
+          <h1>Software Testing</h1>
+          <p class="fragment">Execute the test cases against the system under test</p>
+          <p class="fragment">Check to see if the system's output is as expected</p>
+        </section>
+
+        <section data-background-transition="none" data-background="images/KCIU8RWM09.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/KCIU8RWM09.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Status Report</h1>
+          <p class="fragment">Testing <b class="orange">data mining</b> and <b class="orange">database systems</b></p>
+          <p class="fragment">Research is preliminary and transfer is not common!</p>
+          <br /><small><a title="Status" href="">Stocksnap.io photo</a> shared by <a href="">Olu Eletu</a> under a <a href="http://creativecommons.org/licenses/by/2.0/">Public Domain license</a> </small>
+        </section>
+
+        <section>
+          <h1>Challenges?</h1>
+          <p class="fragment"><b class="orange">Testing</b>: scale to the level of big data systems</p>
+          <p class="fragment"><b class="orange">Big</b> <b class="orange">Data</b>: Holistically consider all of the four "V"s</p>
+        </section>
+
+        <section>
+          <h1>Next Steps?</h1>
+        </section>
+
+        <section data-background-transition="none" data-background="images/96E1A8F1CB.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/96E1A8F1CB.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>Let's Talk!</h1>
+          <p class="fragment"><b class="orange">Collaboration</b> between research communities</p>
+          <p class="fragment">Demonstrate the <b class="orange">correctness</b> of big data systems</p>
+          <br /><small><a title="Meeting" href="">Stocksnap.io photo</a> shared by <a href="">Alejandro Escamilla</a> under a <a href="http://creativecommons.org/licenses/by/2.0/">Public Domain license</a> </small>
+        </section>
+
+        <section>
+          <h1>Is Big Data a Big Deal?</h1>
+        </section>
+
+        <section>
+          <h1>Of course it is!</h1>
+        </section>
+
+        <section data-background-transition="none" data-background="images/98E9041246.jpg" style="">
+        </section>
+
+        <section data-background-transition="none" data-background="images/98E9041246.jpg" style="background: rgba(29,31,33,0.9)">
+          <h1>A Bigger Deal</h1>
+          <p class="fragment">Greater impact with <b class="orange">high-quality</b> big data systems</p>
+          <p class="fragment">Important societal benefits with <b class="orange">correct</b> predictions</p>
+          <p class="fragment">Enhance and sustain our influence &mdash; <b class="orange">together</b>!</p>
+          <br /><small><a title="Lauging Children" href="">Stocksnap.io photo</a> shared by <a href="">Aundre Larrow</a> under a <a href="http://creativecommons.org/licenses/by/2.0/">Public Domain license</a> </small>
+        </section>
+
+      </div>
+
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+
+      <script>
+
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          mouseWheel: true,
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/none/none
+
+          // Parallax scrolling
+          // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+          // parallaxBackgroundSize: '2100px 900px',
+
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+        });
+
+window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+function handleClick(e) {
+  e.preventDefault();
+  if(e.button === 0) Reveal.next();
+  if(e.button === 2) Reveal.prev();
+}
+
+      </script>
+
+  </body>
+</html>
