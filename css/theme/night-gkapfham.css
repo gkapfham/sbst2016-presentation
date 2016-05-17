@@ -64,7 +64,7 @@ body {
 
 .reveal .roll span:after {
     color: #fff;
-    background: #d08a1d; 
+    background: #d08a1d;
 }
 
 /*********************************************
@@ -91,42 +91,42 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-    border-right-color: #df8700; 
+    border-right-color: #df8700;
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-    border-left-color: #df8700; 
+    border-left-color: #df8700;
     /* border-left-color: #e7ad52;  */
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-    border-bottom-color: #df8700; 
+    border-bottom-color: #df8700;
     /* border-bottom-color: #e7ad52;  */
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-    border-top-color: #df8700; 
+    border-top-color: #df8700;
     /* border-top-color: #e7ad52;  */
 }
 
 .reveal .controls div.navigate-left.enabled:hover {
-    border-right-color: #fea927; 
+    border-right-color: #fea927;
 }
 
 .reveal .controls div.navigate-right.enabled:hover {
 
-    border-left-color: #fea927;  
+    border-left-color: #fea927;
 }
 
 .reveal .controls div.navigate-up.enabled:hover {
-    border-bottom-color: #fea927;  
+    border-bottom-color: #fea927;
 }
 
 .reveal .controls div.navigate-down.enabled:hover {
-    border-top-color: #fea927; 
+    border-top-color: #fea927;
 }
 
 /*********************************************
@@ -150,12 +150,12 @@ body {
     color: #e7ad52; }
 
 .orange {
-  color:#e7ad52;
+  color:#ce5c00;
   text-decoration: none;
 }
 
 .plum {
-  color:#ad7fa8; 
+  color:#ad7fa8;
 }
 
 .green {
