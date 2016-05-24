@@ -1,4 +1,4 @@
-# seke2015-panel-presentation
+# sbst2016-presentation
 
 This repository contains the HTML source code and additional resources for a presentation that I, [Gregory M.
 Kapfhammer](http://www.cs.allegheny.edu/sites/gkapfham), gave during a panel at the 27th International Conference
