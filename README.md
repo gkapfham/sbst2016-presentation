@@ -16,7 +16,7 @@ Are you interested in previewing the presentation without having to download the
 site? Well, you can! Please view [Hitchhikers Need Free Vehicles! Shared Repositories for Statistical Analysis in
 SBST](http://cdn.rawgit.com/gkapfham/sbst2016-presentation/master/sbst2016_position.html).
 
-#### Installation Instructions
+## Installation Instructions
 
 You can type the following command if you want to clone this repository:
 
@@ -33,8 +33,8 @@ wide variety of operating systems and browsers.
 
 I have found that some versions of Chrome and Chromium do not quickly load the full-screen images that I use as
 backgrounds. If you notice this problem as well, then I would encourage you to "serve" the presentation with a local Web
-server, such as the Ruby-based one called [jlong/serve](https://github.com/jlong/serve). If you adopt this approach,
-then you should type the following command:
+server, such as the Ruby-based one available at [jlong/serve](https://github.com/jlong/serve). If you adopt this
+approach, then you should type the following command:
 
 ```shell
 serve 4100
